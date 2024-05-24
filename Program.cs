@@ -5,3 +5,13 @@
     return step1;
 }
 
+void showArray(string[] toShow) {
+    foreach (string item in toShow)
+    {
+        if(item.Length<=3) {
+            Console.Write($"{item} ");
+        }
+    }
+    Console.WriteLine();
+}
+
